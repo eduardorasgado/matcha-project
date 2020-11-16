@@ -449,7 +449,11 @@
 
 /** Desktop **/
 @media (min-width: 992px) {
-    
+    .matcha-compares-table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(7, 1fr);
+    }
 }
 
 /** celulares  viewport **/
