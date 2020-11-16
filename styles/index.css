@@ -263,6 +263,7 @@
     .tools-publish {
         text-align: center;
         margin-top: 5vh;
+        margin-bottom: 10vh;
     }
 
     .tools-publish > h2 {
@@ -270,6 +271,38 @@
         font-size: 2em;
         margin-bottom: 2em;
     }
+
+    .tools-container {
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        margin: auto;
+        gap: 1em;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tools-container > article {
+        border: rgb(211,211,211) solid 1px;
+        width: 25%;
+        padding: 3em 1em;
+        border-radius: 5px;
+    }
+
+    .tools-container > article > * {
+        margin-bottom: 15px;
+    }
+
+    .tools-container > article > img {
+        width: 3vw;
+    }
+
+    .tools-container > article > h4 {
+        color: darkslategrey;
+        
+    }
+
+
 }
 
 /** celulares  viewport **/
