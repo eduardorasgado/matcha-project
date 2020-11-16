@@ -16,7 +16,6 @@
 
 .optimize-blog-3 {
     grid-area: brands;
-    background-color: bisque;
 }
 
 /** Desktop **/
@@ -124,6 +123,31 @@
         top: 15.7em;
         left: 22em;
     }
+
+    .optimize-blog-3 {
+        text-align: center;
+        align-content: center;
+    }
+
+    .optimize-blog-3 > h4 {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: gray;
+        opacity: 0.6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+
+    .optimize-blog-3 > section {
+        width: 75vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .optimize-blog-3 > section > img {
+        margin: auto;
+    }
+
 }
 
 /** celulares  viewport **/
