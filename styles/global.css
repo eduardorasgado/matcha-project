@@ -9,6 +9,13 @@
 header {
     background-color: aquamarine;
     height: 50px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+.burguer-menu {
+    display: none;
 }
 
 /** Desktop **/
@@ -18,7 +25,12 @@ header {
 
 /** celulares  viewport **/
 @media (max-width: 575px) {
-    
+    nav {
+        display: none;
+    }
+    .burguer-menu {
+        display: inline;
+    }
 }
 
 /** Celular Landscape **/
