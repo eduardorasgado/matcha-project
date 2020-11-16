@@ -315,6 +315,32 @@
 
 }
 /*--------------Growing Ecommerce--------------------*/
+
+/** Desktop **/
+@media (min-width: 992px) {
+    .growing-ecommerce {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: 10px;
+        width: 95%;
+        margin: auto;
+        height: 550px;
+    }
+
+    .growing-ecommerce > article {
+        border: #025157 solid 1px;
+    }
+}
+
+/** celulares  viewport **/
+@media (max-width: 575px) {
+    
+}
+
+/** Celular Landscape **/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
 /*--------------Matcha Compares--------------------*/
 /*--------------Matcha Powers--------------------*/
 /*--------------Masters Ecommerce--------------------*/
