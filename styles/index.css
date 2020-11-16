@@ -12,7 +12,6 @@
 
 .optimize-blog-2 {
     grid-area: video;
-    background-color: aliceblue;
 }
 
 .optimize-blog-3 {
@@ -30,6 +29,7 @@
         grid-template-columns: 50% 50%;
     }
 
+    /**  Primera seccion de optimize blog  **/
     .optimize-blog-1 {
         padding: 20px;
     }
@@ -68,6 +68,61 @@
         color: lightslategray;
         font-family: sans-serif;
         font-size: small;
+    }
+
+    /**  Segunda seccion de optimize blog **/
+    .optimize-blog-2 {
+        position: relative;
+    }
+
+    article > .img1 {
+        position: absolute;
+        left: 12em;
+    }
+    article > .img2 {
+        position: absolute;
+        left: 3em;
+        top: 3em;
+    }
+    article > .img3 {
+        position: absolute;
+        bottom: 1.2em;
+        right: 1.2em;
+    }
+    article > .img4 {
+        position: absolute;
+        bottom: 8em;
+        right: 12em;
+    }
+    article > .img5 {
+        position: absolute;
+        bottom: 4em;
+        left: 5em;
+    }
+    article > .img6 {
+        position: absolute;
+        top: 11em;
+        right: 4.2em;
+    }
+
+    article > .play-button-container {
+        position: absolute;
+        width: 6em;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        background-color: #025157;
+        opacity: 0.6;
+        border-radius: 5px;
+        padding: 1em 1em;
+        font-weight: bold;     
+        color: white;
+        font-family: sans-serif;
+        font-size: small;
+        top: 15.7em;
+        left: 22em;
     }
 }
 
