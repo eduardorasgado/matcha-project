@@ -287,6 +287,7 @@
         width: 25%;
         padding: 3em 1em;
         border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .tools-container > article > * {
@@ -325,10 +326,50 @@
         width: 95%;
         margin: auto;
         height: 550px;
+        margin-top: 15vw;
+        margin-bottom: 8vw;
     }
 
     .growing-ecommerce > article {
         border: #025157 solid 1px;
+    }
+
+    .growing-carousel-card {
+        display: grid;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .growing-carousel-card-img {
+        z-index: -9999;
+        background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height: 16vw;
+        position: relative;
+    }
+
+    .growing-carousel-card-img-brand {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #f9da73;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        right: 20px;
+        bottom: -20px;
+    }
+    .growing-carousel-card-img-brand > img {
+        width: 80px;
+    }
+
+    .growing-carousel-card-body {
+        margin-top: 20px;
     }
 }
 
