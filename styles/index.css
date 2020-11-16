@@ -1,21 +1,49 @@
 /*--------------Optimize Blog----------------*/
 /*--------------Top Features--------------------*/
-.optimize-blog {
+#optimize-blog {
     background-color: antiquewhite;
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+}
+
+.optimize-blog-1 {
+    grid-area: content;
+    background-color: aliceblue;
+}
+
+.optimize-blog-2 {
+    grid-area: video;
+    background-color: aqua;
+}
+
+.optimize-blog-3 {
+    grid-area: brands;
+    background-color: chocolate;
 }
 
 /** Desktop **/
 @media (min-width: 992px) {
-    
+    #optimize-blog {
+        grid-template-areas: 
+        "content video"
+        "brands brands";
+    }
+
 }
 
 /** celulares  viewport **/
 @media (max-width: 575px) {
-    
-    .optimize-blog {
-        height: 120vh;
+
+    #optimize-blog {
+        height: 150vh;
+        grid-template-areas: 
+        "content"
+        "video" 
+        "brands";
+
     }
+
 }
 
 /** Celular Landscape **/
