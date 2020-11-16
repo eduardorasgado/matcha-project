@@ -1,7 +1,6 @@
 /*--------------Optimize Blog----------------*/
 /*--------------Top Features--------------------*/
 #optimize-blog {
-    background-color: antiquewhite;
     height: 720px;
     width: 100%;
     display: grid;
@@ -9,17 +8,16 @@
 
 .optimize-blog-1 {
     grid-area: content;
-    background-color: aliceblue;
 }
 
 .optimize-blog-2 {
     grid-area: video;
-    background-color: aqua;
+    background-color: aliceblue;
 }
 
 .optimize-blog-3 {
     grid-area: brands;
-    background-color: chocolate;
+    background-color: bisque;
 }
 
 /** Desktop **/
@@ -38,7 +36,7 @@
 
     .optimize-header {
         color: #025157;
-        font-size: 3.2em;
+        font-size: 3em;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin: 20px 0;
         width: 90%;
@@ -51,7 +49,6 @@
     }
 
     .optimize-action {
-        background-color: antiquewhite;
         margin-top: 50px;
         width: 400px;
         display: flex;
