@@ -330,10 +330,6 @@
         margin-bottom: 8vw;
     }
 
-    .growing-ecommerce > article {
-        border: #025157 solid 1px;
-    }
-
     .growing-carousel-card {
         display: grid;
         grid-template-rows: 45% 55%;
@@ -374,7 +370,7 @@
         width: 90%;
         margin: auto;
         margin-top: 5px;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
         gap: 15px;
         font-family: sans-serif;
     }
@@ -400,8 +396,31 @@
         width: 100%;
     }
 
-    .matcha-green-button {
+    .growing-carousel-card-button {
         width: 100%;
+    }
+
+    .growing-info {
+        display: grid;
+        padding-top: 10%;
+        padding-bottom: 45px;
+        padding-left: 2em;
+    }
+
+    .growing-info > h2 {
+        font-size: 4vw;
+        color: #025157;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .growing-info > * {
+        margin-bottom: 20px;
+    }
+
+    .growing-info > p {
+        font-family: sans-serif;
+        font-size: large;
+        color: darkslategray;
     }
 }
 
