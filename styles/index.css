@@ -45,6 +45,8 @@
         font-size: 1.6vw;
         margin-bottom: 20px;
         width: 90%;
+        font-family: sans-serif;
+        color: gray;
     }
 
     .optimize-action {
