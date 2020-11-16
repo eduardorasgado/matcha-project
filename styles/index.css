@@ -238,7 +238,9 @@
     }
     
     .chunk-description-text {
-        color: #025157
+        color: #025157;
+        width: 90%;
+        margin: auto;
     }   
 }
 
