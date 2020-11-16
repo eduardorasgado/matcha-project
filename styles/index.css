@@ -372,25 +372,35 @@
     .growing-carousel-card-body {
         display: grid;
         width: 90%;
-        border: #025157 1px solid;
         margin: auto;
+        margin-top: 5px;
+        margin-bottom: 15px;
         gap: 15px;
         font-family: sans-serif;
     }
 
     .growing-carousel-card-body > h4 {
         color: #025157;
+        font-size: large;
+    }
 
+    .growing-carousel-card-body > p {
+        font-size: 1.6em;
     }
 
     .growing-carousel-card-cart {
         display: grid;
         grid-template-columns: 10% 90%;
-        width: 80%;
+        width: 90%;
+        gap: 15px;
         color: gray;
     }
 
     .growing-carousel-card-cart > img {
+        width: 100%;
+    }
+
+    .matcha-green-button {
         width: 100%;
     }
 }
