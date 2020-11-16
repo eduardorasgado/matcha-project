@@ -254,9 +254,22 @@
 
 }
 /*--------------Tools Publish--------------------*/
+
+
+
 /** Desktop **/
 @media (min-width: 992px) {
     
+    .tools-publish {
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .tools-publish > h2 {
+        width: 100%;
+        font-size: 2em;
+        margin-bottom: 2em;
+    }
 }
 
 /** celulares  viewport **/
