@@ -254,6 +254,20 @@
 
 }
 /*--------------Tools Publish--------------------*/
+/** Desktop **/
+@media (min-width: 992px) {
+    
+}
+
+/** celulares  viewport **/
+@media (max-width: 575px) {
+    
+}
+
+/** Celular Landscape **/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
 /*--------------Growing Ecommerce--------------------*/
 /*--------------Matcha Compares--------------------*/
 /*--------------Matcha Powers--------------------*/
