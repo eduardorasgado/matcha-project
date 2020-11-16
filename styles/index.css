@@ -434,6 +434,33 @@
 
 }
 /*--------------Matcha Compares--------------------*/
+
+.matcha-compares {
+    text-align: center;
+}
+
+.matcha-compares > * {
+    margin-bottom: 55px;
+}
+
+.optimize-header {
+    width: 100%;
+}
+
+/** Desktop **/
+@media (min-width: 992px) {
+    
+}
+
+/** celulares  viewport **/
+@media (max-width: 575px) {
+    
+}
+
+/** Celular Landscape **/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
 /*--------------Matcha Powers--------------------*/
 /*--------------Masters Ecommerce--------------------*/
 
