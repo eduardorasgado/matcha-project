@@ -336,6 +336,7 @@
 
     .growing-carousel-card {
         display: grid;
+        grid-template-rows: 45% 55%;
         border-radius: 15px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -369,7 +370,28 @@
     }
 
     .growing-carousel-card-body {
-        margin-top: 20px;
+        display: grid;
+        width: 90%;
+        border: #025157 1px solid;
+        margin: auto;
+        gap: 15px;
+        font-family: sans-serif;
+    }
+
+    .growing-carousel-card-body > h4 {
+        color: #025157;
+
+    }
+
+    .growing-carousel-card-cart {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        width: 80%;
+        color: gray;
+    }
+
+    .growing-carousel-card-cart > img {
+        width: 100%;
     }
 }
 
