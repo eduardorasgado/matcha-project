@@ -520,6 +520,25 @@
 }
 /*--------------Matcha Powers--------------------*/
 
+.matcha-powers {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.matcha-powers > h2 {
+    color: #025157;
+    text-align: center;
+    font-size: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    margin: auto;
+}
+
+.matcha-powers > a {
+    margin: auto;
+    margin-top: 40px;
+}
+
 /** Desktop **/
 @media (min-width: 992px) {
     
