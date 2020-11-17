@@ -525,9 +525,9 @@
     justify-content: center;
     align-items: center;
     height: 1000px;
-    border: #025157 solid 1px;
     width: 100%;
     margin-bottom: 5vh;
+    font-family: sans-serif;
 }
 .matcha-powers > h2 {
     color: #025157;
@@ -546,6 +546,9 @@
 
 .matcha-powers-main-wheel {
     background-color: #025157;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 /** Desktop **/
@@ -553,11 +556,26 @@
     
     .matcha-wheel {
         position: relative;
+        border: #025157 solid 1px;
+        
     }
 
     .matcha-powers-main-wheel {
         position: absolute;
-        lef
+        left: 35vw;
+        top: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        
+    }
+
+    .matcha-powers-main-wheel > p {
+        width: 18vw;
+        text-align: center;
+        color: white;
     }
 }
 
