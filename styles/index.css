@@ -524,6 +524,10 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 1000px;
+    border: #025157 solid 1px;
+    width: 100%;
+    margin-bottom: 5vh;
 }
 .matcha-powers > h2 {
     color: #025157;
@@ -537,11 +541,24 @@
 .matcha-powers > a {
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.matcha-powers-main-wheel {
+    background-color: #025157;
 }
 
 /** Desktop **/
 @media (min-width: 992px) {
     
+    .matcha-wheel {
+        position: relative;
+    }
+
+    .matcha-powers-main-wheel {
+        position: absolute;
+        lef
+    }
 }
 
 /** celulares  viewport **/
