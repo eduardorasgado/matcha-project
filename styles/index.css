@@ -630,6 +630,14 @@
         top: 320px;
         z-index: -9999;
     }
+
+    .matcha-powers-elements {
+        position: relative;
+    }
+
+    .matcha-powers-elements > article {
+        color: red;
+    }
 }
 
 /** celulares  viewport **/
