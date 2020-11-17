@@ -553,8 +553,6 @@
 
 .matcha-wheel {
     position: relative;
-    border: #025157 solid 1px;
-    
 }
 
 .matcha-powers-main-wheel {
@@ -633,7 +631,6 @@
 
     .matcha-powers-elements {
         position: relative;
-        border: red solid 1px;
     }
 
     .matcha-powers-elements > article {
@@ -644,7 +641,17 @@
         display: grid;
         grid-template-columns: 60% 40%;
         align-items: center;
+    }
 
+    .matcha-powers-elements > article > div > h4 {
+        color: #025157;
+        font-size: large;
+    }
+
+    .matcha-powers-elements > article > div > p {
+        color: gray;
+        font-size: 1em;
+        margin-top: 8px;
     }
 
     .power-elements-img-container {
