@@ -638,7 +638,17 @@
 
     .matcha-powers-elements > article {
         position: absolute;
+        height: 200px;
+        width: 400px;
+        font-size: medium;
+        display: grid;
+        grid-template-columns: 60% 40%;
     }
+
+    .powers-elements-right {
+        grid-template-columns: 40% 60% !important;
+    }
+
 }
 
 /** celulares  viewport **/
