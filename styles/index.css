@@ -649,6 +649,30 @@
         grid-template-columns: 40% 60% !important;
     }
 
+    .power-elements-shopify {
+        left: 150px;
+        top: 80px;
+    }
+
+    .power-elements-mailchimp {
+        right: 100px;
+        top: 100px;
+    }
+
+    .power-elements-wordpress {
+        left: 100px;
+        top: 300px;
+    }
+
+    .power-elements-klaviyo {
+        top: 500px;
+        left: 200px;
+    }
+
+    .power-elements-facebook {
+        top: 450px;
+        right: 50px;
+    }
 }
 
 /** celulares  viewport **/
