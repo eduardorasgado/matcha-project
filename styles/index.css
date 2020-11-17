@@ -638,16 +638,24 @@
 
     .matcha-powers-elements > article {
         position: absolute;
-        height: 100px;
-        width: 400px;
+        height: 120px;
+        width: 450px;
         font-size: medium;
         display: grid;
         grid-template-columns: 60% 40%;
+        align-items: center;
+
     }
 
     .power-elements-img-container {
         background-color: white;
         border: lightgrey solid 1px;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
     }
 
     .powers-elements-right {
