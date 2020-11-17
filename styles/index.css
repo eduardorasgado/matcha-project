@@ -636,11 +636,18 @@
     .matcha-powers-elements > article {
         position: absolute;
         height: 120px;
-        width: 450px;
+        width: 400px;
         font-size: medium;
         display: grid;
         grid-template-columns: 60% 40%;
         align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .powers-elements-right {
+        grid-template-columns: 28% 73% !important;
+        gap: 20px !important;
     }
 
     .matcha-powers-elements > article > div > h4 {
@@ -665,33 +672,30 @@
         border-radius: 50%;
     }
 
-    .powers-elements-right {
-        grid-template-columns: 40% 60% !important;
-    }
-
     .power-elements-shopify {
         left: 80px;
         top: 35px;
     }
 
     .power-elements-mailchimp {
-        right: 45px;
+        right: 80px;
         top: 20px;
     }
 
     .power-elements-wordpress {
-        left: 10px;
+        left: 1px;
         top: 260px;
     }
 
     .power-elements-klaviyo {
-        top: 530px;
-        left: 160px;
+        top: 540px;
+        left: 110px;
+        width: 480px !important;
     }
 
     .power-elements-facebook {
         top: 470px;
-        right: 20px;
+        right: 60px;
     }
 }
 
