@@ -524,9 +524,9 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 40px;
     width: 100%;
-    margin-bottom: 5vh;
+    margin-bottom: 160vh;
     font-family: sans-serif;
 }
 .matcha-powers > h2 {
@@ -633,10 +633,11 @@
 
     .matcha-powers-elements {
         position: relative;
+        border: red solid 1px;
     }
 
     .matcha-powers-elements > article {
-        color: red;
+        position: absolute;
     }
 }
 
