@@ -451,8 +451,34 @@
 @media (min-width: 992px) {
     .matcha-compares-table {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 50% 1fr 1fr 1fr;
         grid-template-rows: repeat(7, 1fr);
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25vh;
+        font-family: sans-serif;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    }
+
+    .matcha-compares-table > div {
+        border: rgb(211,211,211) solid 1px;
+    }
+
+    .table-upper-left-corner {
+        border-top-left-radius: 10px;
+    }
+
+    .table-upper-right-corner {
+        border-top-right-radius: 10px;
+    }
+
+    .table-bottom-left-corner {
+        border-bottom-left-radius: 10px;
+    }
+
+    .table-bottom-right-corner {
+        border-bottom-right-radius: 10px;
     }
 }
 
