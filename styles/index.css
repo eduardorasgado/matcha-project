@@ -588,6 +588,31 @@
         left: 22vw;
         top: 1px;
     }
+
+    .wheel-line {
+        border-top: red solid 1px;
+        width: 200px;
+    }
+
+    .wheel-line-1 {
+
+    }
+
+    .wheel-line-2 {
+
+    }
+
+    .wheel-line-3 {
+
+    }
+
+    .wheel-line-4 {
+
+    }
+
+    .wheel-line-5 {
+
+    }
 }
 
 /** celulares  viewport **/
